@@ -40,24 +40,24 @@ create table corrida(
 
 -- Populando o DB 
 
--- Carros
+
 insert into carro values("X4Z8Q1", "Fiesta", "ST", 2019);
 insert into carro values("Y5T9R2", "Corolla", "XEi", 2022);
 insert into carro values("Z6U0S3", "Hilux", "SW4", 2023);
 
--- Clientes
+
 insert into cliente values(1001, "Ana Souza");
 insert into cliente values(2002, "Carlos Silva");
 insert into cliente values(3003, "Diana Martins");
 
--- Cliente Pessoa
+
 insert into cliente_pessoa values(1001, "123.456.789-10");
 insert into cliente_pessoa values(2002, "987.654.321-00");
 
--- Cliente Empresa
+
 insert into cliente_empresa values(3003, "12.345.678/0001-23");
 
--- Corridas
+
 insert into corrida values(1001, "X4Z8Q1", '2024-08-01');
 insert into corrida values(1001, "Y5T9R2", '2024-08-02');
 insert into corrida values(2002, "Z6U0S3", '2024-08-01');
