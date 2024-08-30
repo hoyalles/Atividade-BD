@@ -1,5 +1,3 @@
--- Criando um DB utilizando o DDL de um MER especifico ( taxi )
-
 create database itaxi;
 use itaxi;
 
